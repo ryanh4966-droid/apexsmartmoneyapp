@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Smart Services Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="top-nav">
+    <div class="logo">Smart Services Hub</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="page">
+    <section class="section">
+        <h2>About Smart Services Hub</h2>
+        <p>Smart Services Hub focuses on practical, efficient solutions: Linux‑powered automation, clean web builds, and AI‑driven tools that actually get used. No fluff, no over‑engineering — just systems that work.</p>
+    </section>
+
+    <section class="section">
+        <h2>How I Work</h2>
+        <div class="grid grid-3">
+            <div class="card">
+                <h3>Linux‑First Mindset</h3>
+                <p>Everything is built with stability and automation in mind, using Linux as the backbone for reliability and control.</p>
+            </div>
+            <div class="card">
+                <h3>Modular & Reusable</h3>
+                <p>Sites and systems are built in a way that makes them easy to extend, duplicate, and adapt for future projects.</p>
+            </div>
+            <div class="card">
+                <h3>AI‑Native Approach</h3>
+                <p>AI isn’t an add‑on — it’s baked into how content, workflows, and tools are designed from the start.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Smart Services Hub — AI Automation & Web Solutions</p>
+</foote    r>
+
+</body>
+</html>
