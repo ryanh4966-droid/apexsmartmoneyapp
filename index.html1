@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Services Hub | AI Automation & Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="top-nav">
+    <div class="logo">Smart Services Hub</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="page">
+    <header class="hero">
+        <h1>AI‑Powered Automation & Web Solutions</h1>
+        <p>Linux‑driven automation, modern web design, and AI‑powered tools built to streamline your workflows and grow your online presence.</p>
+        <a href="services.html" class="cta-btn">Explore Services</a>
+    </header>
+
+    <section class="section">
+        <h2>What You Get</h2>
+        <div class="grid grid-3">
+            <div class="card">
+                <h3>Automation Systems</h3>
+                <p>Hands‑off workflows powered by Linux and AI to handle repetitive tasks, data, and content so you don’t have to.</p>
+            </div>
+            <div class="card">
+                <h3>Modern Web Experiences</h3>
+                <p>Fast, clean, and responsive websites that look professional on desktop, tablet, and mobile.</p>
+            </div>
+            <div class="card">
+                <h3>AI‑Enhanced Tools</h3>
+                <p>Custom AI integrations and tools that help you respond faster, create content, and support your customers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Built for Small Teams & Solo Operators</h2>
+        <p>Whether you’re running a one‑person operation or a small team, Smart Services Hub is designed to remove friction, reduce manual work, and give you a professional online presence without the bloat.</p>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Smart Services Hub — AI Automation & Web Solutions</p>
+</footer>
+
+</body>
+</html>
