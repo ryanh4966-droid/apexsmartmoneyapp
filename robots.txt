@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ryanh4966-droid.github.io/apexsmartmoneyapp/sitemap.xml
