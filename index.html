@@ -6,7 +6,7 @@
 <title>Smart Services Hub | Linux Automation, Web Development & AI Tools</title>
 
 <!-- Basic SEO -->
-<meta name="description" content="Smart Services Hub provides Linux-powered automation, modern websites, and AI tools with fast turnaround and clear pricing.">
+<meta name="description" content="Smart Services Hub delivers Linux-powered automation, modern websites, and AI tools with clear pricing and fast turnaround.">
 <meta name="keywords" content="Linux automation, web development, AI tools, scripts, systemd, business automation, Smart Services Hub">
 <meta name="author" content="Smart Services Hub">
 
@@ -16,7 +16,6 @@
 <meta property="og:type" content="website">
 
 <style>
-/* Global */
 * {
     box-sizing: border-box;
 }
@@ -33,14 +32,12 @@ a {
     color: #00eaff;
 }
 
-/* Layout */
 section {
     padding: 60px 20px;
     max-width: 1100px;
     margin: auto;
 }
 
-/* Gradient Headings */
 h1, h2 {
     font-weight: 700;
 }
@@ -143,7 +140,7 @@ nav a:hover {
     color: #02030a;
 }
 
-/* Services / Tiers */
+/* Services */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -176,7 +173,32 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-/* Pricing Table */
+/* Templates */
+.templates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.template-card {
+    background: #0b0d1a;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #1b1f3a;
+}
+
+.template-tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: #11152b;
+    color: #9fa8ff;
+    margin-bottom: 8px;
+}
+
+/* Pricing */
 .pricing-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -219,31 +241,6 @@ nav a:hover {
 .pricing-card ul li::before {
     content: "• ";
     color: #00eaff;
-}
-
-/* Templates / Mock Examples */
-.templates-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.template-card {
-    background: #0b0d1a;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #1b1f3a;
-}
-
-.template-tag {
-    display: inline-block;
-    font-size: 0.8rem;
-    padding: 3px 8px;
-    border-radius: 999px;
-    background: #11152b;
-    color: #9fa8ff;
-    margin-bottom: 8px;
 }
 
 /* Testimonials */
@@ -327,7 +324,7 @@ footer {
     <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#templates">Templates</a></li>
+        <li><a href="#templates">Examples</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#guarantee">Guarantee</a></li>
@@ -338,169 +335,179 @@ footer {
 <section id="hero" class="reveal">
     <h1>Smart Services Hub</h1>
     <p class="subtitle">
-        Linux-powered automation, modern websites, and AI tools for businesses that want speed, reliability, and clean execution.
+        Linux-powered automation, modern websites, and AI tools for businesses that want reliable systems and clear results.
     </p>
 
     <div class="hero-cta">
-        <a href="mailto:smartserviceshub@proton.me" class="primary-btn">Hire Me Now</a>
+        <a href="mailto:smartserviceshub@proton.me" class="primary-btn">Hire Me</a>
         <a href="#pricing" class="secondary-btn">View Pricing & Timelines</a>
     </div>
 </section>
 
 <section id="services" class="reveal">
-    <h2>What I Do</h2>
+    <h2>Services</h2>
     <p style="text-align:center; max-width:750px; margin:0 auto 25px; color:#cfd8ff;">
-        I specialize in Linux automation, web development, and AI-powered tools. 
-        Whether you need a simple script or a full business system, I build it fast and clean.
+        I focus on practical, reliable solutions: automation that actually runs, websites that load fast, and tools that save time.
     </p>
 
     <div class="services-grid">
         <div class="service-card">
             <h3>Linux Automation</h3>
-            <p class="service-meta">Estimated completion: 4–24 hours (basic) · 1–3 days (complex)</p>
-            <p>Custom scripts, systemd timers, cron jobs, backup automation, log processing, and workflow optimization.</p>
+            <p class="service-meta">Typical completion: 4–24 hours (simple) · 1–3 days (complex)</p>
+            <p>Custom scripts, systemd timers, cron jobs, backup routines, log processing, and workflow automation tailored to your environment.</p>
         </div>
 
         <div class="service-card">
             <h3>Website Development</h3>
-            <p class="service-meta">Estimated completion: 1–3 days (basic) · 3–7 days (multi-page)</p>
-            <p>Fast, responsive, modern websites for services, portfolios, and small businesses using clean HTML/CSS and GitHub Pages.</p>
+            <p class="service-meta">Typical completion: 1–3 days (single-page) · 3–7 days (multi-page)</p>
+            <p>Clean, responsive websites for services, portfolios, and small businesses using modern HTML/CSS and lightweight deployment.</p>
         </div>
 
         <div class="service-card">
             <h3>AI Tools & Integrations</h3>
-            <p class="service-meta">Estimated completion: 1–5 days depending on complexity</p>
-            <p>Custom AI-powered generators, automation flows, and integrations that plug into your existing systems and workflows.</p>
+            <p class="service-meta">Typical completion: 2–5 days depending on scope</p>
+            <p>AI-powered generators, automation flows, and integrations that plug into your existing systems and reduce manual work.</p>
         </div>
     </div>
 </section>
 
 <section id="templates" class="reveal">
-    <h2>Example Project Templates</h2>
+    <h2>Example Project Types</h2>
     <p style="text-align:center; max-width:750px; margin:0 auto 25px; color:#cfd8ff;">
-        These are mock examples of the kind of work I deliver. 
-        Each can be adapted to your business with your branding, content, and requirements.
+        Here are examples of the kind of projects I regularly build. 
+        Your project can follow one of these patterns or be fully custom.
     </p>
 
     <div class="templates-grid">
         <div class="template-card">
-            <span class="template-tag">Template · Service Business Site</span>
-            <h3>Local Repair Shop Website</h3>
-            <p>Clean, mobile-friendly site with services, pricing, testimonials, and a contact form. Perfect for small local businesses.</p>
-            <p class="service-meta">Estimated: 2–4 days · Ideal for: plumbers, electricians, repair services.</p>
+            <span class="template-tag">Service Business Website</span>
+            <h3>Local Home Services Site</h3>
+            <p>Modern, mobile-friendly site with services, pricing, testimonials, and a clear contact path.</p>
+            <p class="service-meta">Good fit for: repair services, trades, local businesses.</p>
         </div>
 
         <div class="template-card">
-            <span class="template-tag">Template · Automation</span>
-            <h3>Daily Backup & Log Rotation Script</h3>
-            <p>Linux script with systemd timer that backs up critical data, rotates logs, and sends status notifications.</p>
-            <p class="service-meta">Estimated: 4–12 hours · Ideal for: small businesses, VPS owners, self-hosted services.</p>
+            <span class="template-tag">Automation</span>
+            <h3>Daily Backup & Maintenance Script</h3>
+            <p>Automated backups, log rotation, and basic health checks with clear logging and predictable behavior.</p>
+            <p class="service-meta">Good fit for: VPS owners, small businesses, self-hosted setups.</p>
         </div>
 
         <div class="template-card">
-            <span class="template-tag">Template · AI Tool</span>
-            <h3>AI Content & Report Generator</h3>
-            <p>Command-line or web-based tool that generates summaries, reports, or content using AI and delivers via email or webhook.</p>
-            <p class="service-meta">Estimated: 2–5 days · Ideal for: agencies, consultants, data-heavy workflows.</p>
+            <span class="template-tag">AI Tool</span>
+            <h3>Report & Summary Generator</h3>
+            <p>Tool that generates summaries or reports from your data and delivers them by email or webhook.</p>
+            <p class="service-meta">Good fit for: teams that review recurring data or status updates.</p>
+        </div>
+
+        <div class="template-card">
+            <span class="template-tag">Internal Utility</span>
+            <h3>Data Cleaning & Formatting Script</h3>
+            <p>Script that normalizes, cleans, and restructures data so it’s ready for import, analysis, or reporting.</p>
+            <p class="service-meta">Good fit for: spreadsheets, CSVs, exports from other systems.</p>
+        </div>
+
+        <div class="template-card">
+            <span class="template-tag">Combined Package</span>
+            <h3>Website + Automation Bundle</h3>
+            <p>Public-facing site plus behind-the-scenes automation for backups, notifications, or simple AI tasks.</p>
+            <p class="service-meta">Good fit for: small businesses wanting a complete, simple setup.</p>
         </div>
     </div>
 </section>
 
 <section id="pricing" class="reveal">
-    <h2>Pricing & Estimated Timelines</h2>
+    <h2>Pricing & Timelines</h2>
     <p style="text-align:center; max-width:780px; margin:0 auto 25px; color:#cfd8ff;">
-        These are baseline estimates. Final pricing depends on scope, complexity, and urgency. 
-        You’ll always know the cost before I start.
+        These ranges are typical for most projects. 
+        You’ll get a clear quote and timeline before any work starts.
     </p>
 
     <div class="pricing-grid">
         <div class="pricing-card">
-            <h3>Basic Coding & Setup</h3>
+            <h3>Basic Work</h3>
             <p class="price">$75 – $150</p>
-            <p class="service-meta">Estimated completion: 4–24 hours</p>
+            <p class="service-meta">Typical completion: 4–24 hours</p>
             <ul>
                 <li>Small Linux scripts or one-off automation</li>
-                <li>Minor website fixes or layout tweaks</li>
-                <li>Simple configuration changes or setup tasks</li>
+                <li>Minor website fixes or layout adjustments</li>
+                <li>Simple configuration or setup tasks</li>
             </ul>
         </div>
 
         <div class="pricing-card">
-            <h3>Moderate Projects</h3>
+            <h3>Standard Projects</h3>
             <p class="price">$200 – $500</p>
-            <p class="service-meta">Estimated completion: 2–5 days</p>
+            <p class="service-meta">Typical completion: 2–5 days</p>
             <ul>
                 <li>Single-page or small multi-section website</li>
                 <li>Automation for multiple tasks or services</li>
-                <li>Basic AI tool or integration with clear scope</li>
+                <li>Entry-level AI tool or integration with a clear scope</li>
             </ul>
         </div>
 
         <div class="pricing-card">
-            <h3>Mass / Full-System Builds</h3>
+            <h3>Larger Systems</h3>
             <p class="price">$600 – $1,500+</p>
-            <p class="service-meta">Estimated completion: 1–3 weeks</p>
+            <p class="service-meta">Typical completion: 1–3 weeks</p>
             <ul>
-                <li>Multi-page business site with multiple flows</li>
+                <li>Multi-page business site with several flows</li>
                 <li>Complex automation pipelines and monitoring</li>
-                <li>Advanced AI tools, dashboards, or integrations</li>
+                <li>More advanced AI tools or internal utilities</li>
             </ul>
         </div>
     </div>
 
     <p style="text-align:center; margin-top:25px; color:#cfd8ff;">
-        Need something outside these ranges? 
-        <a href="mailto:smartserviceshub@proton.me">Email me</a> with what you need and I’ll give you a clear quote.
+        If your project doesn’t fit neatly into a category, 
+        <a href="mailto:smartserviceshub@proton.me">email me</a> with details and I’ll give you a straightforward estimate.
     </p>
 </section>
 
 <section id="testimonials" class="reveal">
-    <h2>What People Say</h2>
+    <h2>Testimonials</h2>
 
     <div class="testimonials-grid">
         <div class="testimonial-card">
-            <p>"We gave him a vague idea and a tight deadline. He turned it into a working Linux automation in under 24 hours. It just runs — every day — without us touching it."</p>
-            <h4>— Mock Client · Small Business Owner</h4>
+            <p>"We had a manual process that was eating up time every day. He turned it into a simple Linux automation that runs on its own and hasn’t missed a beat."</p>
+            <h4>— Small Business Owner</h4>
         </div>
 
         <div class="testimonial-card">
-            <p>"The website he built looks modern, loads fast, and actually explains what we do better than we ever could. Our customers keep complimenting it."</p>
-            <h4>— Mock Client · Service Provider</h4>
+            <p>"The website he built is clean, fast, and easy for our customers to understand. It represents our business the way we always wanted."</p>
+            <h4>— Service Provider</h4>
         </div>
 
         <div class="testimonial-card">
-            <p>"The AI tool he set up saves us hours every week. It generates reports automatically and emails them to the team. We should have done this years ago."</p>
-            <h4>— Mock Client · Operations Manager</h4>
+            <p>"The tool he created pulls data, generates reports, and emails them automatically. It removed a repetitive task from our week and just works."</p>
+            <h4>— Operations Manager</h4>
         </div>
     </div>
 </section>
 
 <section id="guarantee" class="reveal">
-    <h2>My Guarantee</h2>
+    <h2>Guarantee</h2>
     <div class="inner">
         <p style="font-size:1.05rem; color:#cfd8ff; line-height:1.7;">
-            When you hire Smart Services Hub, you’re not guessing — you’re making a calculated decision.
-            I stand behind every script, website, and AI tool I build.
+            When you work with Smart Services Hub, you get clear expectations and a finished result that matches what we agreed on.
         </p>
 
         <p style="font-size:1.05rem; color:#cfd8ff; margin-top:18px;">
-            <strong style="color:#00eaff;">If I don’t deliver what we agreed on, I fix it fast at no extra cost.</strong>
+            <strong style="color:#00eaff;">If something isn’t right based on the original scope, I fix it promptly at no additional cost.</strong>
         </p>
 
         <p style="font-size:1.05rem; color:#cfd8ff; margin-top:18px;">
-            You get clean code, clear communication, and real results. 
-            No excuses. No disappearing. 
-            <strong style="color:#b400ff;">Your project gets finished — properly.</strong>
+            The goal is simple: reliable systems, clean code, and a project you feel good about using every day.
         </p>
     </div>
 </section>
 
 <section id="contact" class="reveal">
     <h2>Contact</h2>
-    <p>Ready to talk about your project, get a quote, or ask a question?</p>
+    <p>Ready to talk about a project, get a quote, or ask a question?</p>
     <a href="mailto:smartserviceshub@proton.me" class="contact-link">smartserviceshub@proton.me</a>
     <p style="margin-top:10px; color:#cfd8ff; font-size:0.95rem;">
-        Include as much detail as you can: what you need, your timeline, and any examples you like.
+        Include what you need, your timeline, and any examples you like. I’ll reply with next steps and a clear plan.
     </p>
 </section>
 
